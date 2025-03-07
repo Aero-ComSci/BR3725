@@ -1,0 +1,15 @@
+I made it for only 3 x 5.
+
+You start with 11.
+
+- Bitshift twice
+
+You have 1100.
+
+- Change the zeros to ones.
+
+You have 1111:
+
+1111 equals 15.
+
+i couldn't figure out the general algorithm wihtout googling it.
