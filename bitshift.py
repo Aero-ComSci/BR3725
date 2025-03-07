@@ -1,5 +1,8 @@
+#This is psuedocode
 def multiply(n):
-    #Add the code and an explanation on how to 
-    #multiply a number by 2 using bitshift
+    number1 = input("Number 1")
+    number2 = input("Number 2")
+    #if possible get the binary for both numbers and store them as variables
+    #
     return n
 
