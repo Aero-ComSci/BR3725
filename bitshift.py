@@ -1,5 +1,8 @@
-def multiply(n):
-    #Add the code and an explanation on how to 
-    #multiply a number by 2 using bitshift
-    return n
-
+def multiply(a, b):
+    result = 0
+    while b > 0:
+        if b & 1:  
+            result += a
+        a <<= 1 
+        b >>= 1
+    return result
