@@ -1,5 +1,9 @@
 def multiply(n):
-    #Add the code and an explanation on how to 
-    #multiply a number by 2 using bitshift
+    n1 = input("Enter a number")
+    n2 = input("Enter a number")
+    x1 = bin(n1)
+    x2 = bin(n2)
+    
+    #The goal was to convert both numbers into binary and then multiply them using bitwise operators. Exponentiation of the number will get the same number as using bitshift of the number in binary.
     return n
 
