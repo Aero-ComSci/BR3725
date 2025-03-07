@@ -1,0 +1,9 @@
+def using_shifts(a,b):
+    print( a << b)
+
+def using_multiply(a,b):
+    z = a* (2**b)
+    print(z)
+# <--- As you can see here the same value in both functions return the same value showing how shifting by a ceratin amount in this case "b" varaible is the same as multiplying a number "a" by 2 to the power of b --->
+using_shifts(3,4)
+using_multiply(3,4)
