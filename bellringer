@@ -1,0 +1,1 @@
+Left-shifting a binary number by 'n' positions is equivalent to multiplying that number by 2^n because each bit is two times greater than the last.
