@@ -8,3 +8,7 @@ Why this question is effective:
 * Efficiency: It encourages them to think about efficient ways to perform multiplication.
 * Practical Application: Bit shifting is a fundamental technique used in low-level programming and hardware design.
 * Decomposition: the question naturally decomposes into two parts. First, explaining the theory, and second, applying that theory to a practical problem.
+
+Every binary number is a power of 2. 
+  </br>
+find the first value on the very right of the binary number, first take the number of shifts+1. if the first number is 1 take the number of shifts+1 and take it to the power of two, then store that value, then bit shift to the right once and add 1 to the number of shifts+1. if 0 bit shift to the right once and add 1 to the number of shifts+1. After getting all the numbers, add all values stored. 
