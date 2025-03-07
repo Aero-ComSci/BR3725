@@ -1,5 +1,8 @@
-def multiply(n):
-    #Add the code and an explanation on how to 
-    #multiply a number by 2 using bitshift
+def multiply():
+    a = int(input("Number: "))
+    b = int(input("Shift by: "))
+    n = a << b
     return n
+
+multiply(5, 3)
 
