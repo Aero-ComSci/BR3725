@@ -8,3 +8,7 @@ Why this question is effective:
 * Efficiency: It encourages them to think about efficient ways to perform multiplication.
 * Practical Application: Bit shifting is a fundamental technique used in low-level programming and hardware design.
 * Decomposition: the question naturally decomposes into two parts. First, explaining the theory, and second, applying that theory to a practical problem.
+
+**Explanation**
+
+When you left shift a binary number by n positions, you take each bit and, by shifting it by n, you change the decimal value of that bit by 2^n.  The last n bits of the number all become 0, so the first 1 bit in the binary number is at least having a value of 2^n.  The larger the original binary number, the further the shifted value would go, and thus, by 2^n.
